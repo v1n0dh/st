@@ -47,7 +47,7 @@ install: st
 localinstall: all
 	mkdir -p ${HOME}/.bin
 	cp -f st ${HOME}/.bin
-	chmod 755 ${HOME}/.bin/st.png
+	chmod 755 ${HOME}/.bin/st
 
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/st
