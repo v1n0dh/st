@@ -5,11 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Terminus:size=12:antialias=true:autohint=true";
+static char *font = "Terminus:size=12:antialias=false:autohint=false";
 /* Spare fonts */
 static char *font2[] = {
-	"Inconsolata Nerd Font:style=Regular:size=12:antialias=true:autohint=true",
-	"Noto Color Emoji:size=12",
+	"Inconsolata Nerd Font:style=Regular:size=10",
+	"Noto Color Emoji:size=10",
 };
 
 static int borderpx = 2;
