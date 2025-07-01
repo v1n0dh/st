@@ -5,7 +5,13 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Inconsolata:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Terminus:size=12:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+	"Inconsolata Nerd Font:style=Regular:size=12:antialias=true:autohint=true",
+	"Noto Color Emoji:size=12",
+};
+
 static int borderpx = 2;
 
 /* How to align the content in the window when the size of the terminal
